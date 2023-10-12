@@ -6,7 +6,7 @@ const port = 8888;
 
 app.use(cors());
 app.use(express.json());
-const OPEN_API_KEY = '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';
+const OPEN_API_KEY = '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';
 
 const openai = new Openai({
   apiKey: OPEN_API_KEY
